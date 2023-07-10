@@ -8,10 +8,10 @@ import { CountriesModule } from './countries/countries.module';
 
 // se define una constante con las rutas que se usaran en nuestra pagina
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePageComponent
-  },
+  // {
+  //   path: '',
+  //   component: HomePageComponent
+  // },
   {
     path: 'about',
     component: AboutPageComponent
@@ -29,7 +29,7 @@ const routes: Routes = [
   {
     // en caso de que el usuario ponga cualquier ruta que no tengamos contemplada lo redireccionaremos al home
     path: '**',
-    redirectTo: ''
+    redirectTo: 'countries'
   }
 ]
 
