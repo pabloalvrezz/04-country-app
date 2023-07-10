@@ -11,9 +11,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AboutPageComponent,
+    ContactPageComponent,
     HomePageComponent,
     SidebarComponent,
-    ContactPageComponent,
   ],
   imports: [
     CommonModule,

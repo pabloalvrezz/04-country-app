@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'shared-contact-page',
@@ -6,11 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class ContactPageComponent implements OnInit {
+export class ContactPageComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
